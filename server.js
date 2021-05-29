@@ -1,6 +1,6 @@
 const http = require('http');
 const server = http.createServer((req,res)=> {
-    res.end('Otra vez el primer codigo...')
+    res.end('<h1>Otra vez el primer codigo...</h1>')
 } )
 
 server.listen(3000);
