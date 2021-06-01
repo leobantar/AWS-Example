@@ -1,6 +1,6 @@
 const http = require('http');
 const server = http.createServer((req,res)=> {
-    res.end('<h1> Habrá que esperar un poco mas</h1>')
+    res.end('<h1> Se debe que esperar para poder verlo</h1>')
 } )
 
 server.listen(3000);
